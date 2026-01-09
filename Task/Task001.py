@@ -1,0 +1,1 @@
+print("Harsh", 29051994, "Sharma", "Kush", sep='*', end="_")
