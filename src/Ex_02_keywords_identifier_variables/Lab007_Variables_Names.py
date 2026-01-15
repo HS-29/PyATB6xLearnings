@@ -5,7 +5,7 @@ pi = 3.14
 name = "Kush"
 isMale = True
 
-# print(type(name))-- Command
+# print(type(name))--> Type Command
 
 print(type(_Harsh)) #<class 'str'>
 print(type(_ABC)) #<class 'int'>
