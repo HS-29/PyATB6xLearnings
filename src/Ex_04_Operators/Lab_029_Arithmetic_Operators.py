@@ -8,7 +8,7 @@ print(a % b)
 print(a ** b)
 print(pow(10, 3))
 
-
+print("___")
 #Arithmetic Example
 # +, -, *, /
 

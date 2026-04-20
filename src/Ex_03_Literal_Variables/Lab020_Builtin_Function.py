@@ -5,9 +5,11 @@
 # min()
 # print()
 # type()
+# pow()
 
 a = pow(2, 4) # It means two the power four
 print(a)
 print(pow(2,3))
 b = abs(-10) # Return the absolute value of the argument
 print(b)
+

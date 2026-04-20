@@ -1,0 +1,11 @@
+import pytest
+@pytest.mark.smoke
+
+def test_method3():
+    print("test1")
+    assert 1-1 == 2
+
+@pytest.mark.regrassion
+def test_login():
+    print("test2")
+    assert 1+1 == 2
