@@ -6,3 +6,6 @@ age = "Harsh"
 print(type(age))
 age = True
 print(type(age))
+
+age = type(3.14)
+print(age)

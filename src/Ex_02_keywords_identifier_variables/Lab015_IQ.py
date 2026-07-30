@@ -4,3 +4,6 @@
 # If you want to print you need to convert all of the variable in str
 
 print("Hello World" + str(15))
+
+print("hello" + '12')
+

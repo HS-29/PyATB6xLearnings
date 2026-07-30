@@ -11,3 +11,11 @@ def test_get_request():
     assert response_data.status_code == 200
 
 
+@allure.title("TC#1- Verify the GET request.")
+@allure.description("Verify that the GET request basically is successful and gives you 200, OK as a status code")
+@pytest.mark.positive
+def test_get_request_negative():
+    url_get = "https://restful-booker.herokuapp.com/booking/-1"
+    response_data = requests.get(url=url_get)
+    assert response_data.status_code == 404
+

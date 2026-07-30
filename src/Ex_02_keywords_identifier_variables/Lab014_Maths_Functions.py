@@ -8,3 +8,6 @@ print(Result)
 
 Result = min(3,8)
 print(Result)
+
+result = 2, 5
+print(min(result))
